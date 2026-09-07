@@ -58,7 +58,10 @@ Visit: `http://localhost:3000`
 ---
 
 ## 📸 Demo
-`[Looks like the result wasn't safe to show. Let's switch things up and try something else!]`
+
+Here’s what the app looks like:
+
+![To-Do List Screenshot](todo.png)
 
 ---
 
