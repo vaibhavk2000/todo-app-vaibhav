@@ -1,4 +1,3 @@
-# todo-app-vaibhav
 # 📝 To-Do List App (Node.js + Express)
 
 A simple To-Do List application built with **Node.js**, **Express**, and **EJS templates**.  
