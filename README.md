@@ -65,6 +65,26 @@ Visit: `http://localhost:3000`
 
 ---
 
+## 🛠 Create the Docker-Composed.yml to run app
+
+version: '3.8'
+
+services:
+  todo-app:
+    build: .
+    container_name: todo-app-container
+    ports:
+      - "3000:3000"
+    restart: always
+
+```
+## 🐳 Run with Docker composed
+```bash
+# up the app
+docker composed up -d --build
+
+---
+
 ## 📸 Demo
 
 Here’s what the app looks like:
