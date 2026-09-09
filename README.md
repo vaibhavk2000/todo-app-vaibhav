@@ -33,11 +33,9 @@ todo-app/
 
 ---
 
-## 🛠 Create the Dockerfile or Docker-composed.yml to run app 
+## 🛠 Create the Dockerfile to run app 
 
 ```bash
-Dockerfile
-
 # Use official Node.js image as base
 FROM node: 18
 # Set working directory inside container
@@ -55,7 +53,7 @@ CMD ["npm", "start"] docker file
 npm install
 
 ```
-## 🐳 Run with Docker
+## 🐳 Run with Dockerfile
 ```bash
 # Build image
 docker build -t todo-app .
