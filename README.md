@@ -66,7 +66,7 @@ Visit: `http://localhost:3000`
 ---
 
 ## 🛠 Create the Docker-Composed.yml to run app
-
+```bash
 version: '3.8'
 
 services:
@@ -83,6 +83,7 @@ services:
 # up the app
 docker composed up -d --build
 
+```
 ---
 
 ## 📸 Demo
