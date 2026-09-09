@@ -86,7 +86,7 @@ docker composed up -d --build
 ```
 Visit: `http://localhost:3000`
 
-```
+
 ---
 
 ## 📸 Demo
