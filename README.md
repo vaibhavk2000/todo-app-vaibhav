@@ -59,7 +59,7 @@ npm install
 docker build -t todo-app .
 
 # Run container
-docker run -p 3000:300 todo-app
+docker run -p 3000:3000 todo-app
 ```
 Visit: `http://localhost:3000`
 
@@ -82,6 +82,9 @@ services:
 ```bash
 # up the app
 docker composed up -d --build
+
+```
+Visit: `http://localhost:3000`
 
 ```
 ---
