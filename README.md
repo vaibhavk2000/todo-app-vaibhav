@@ -54,8 +54,7 @@ EXPOSE 3000
 CMD ["npm", "start"] docker file
 npm install
 
-
-
+```
 ## 🐳 Run with Docker
 ```bash
 # Build image
